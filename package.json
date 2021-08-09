@@ -1,0 +1,29 @@
+{
+  "name": "pizza-ordering-app",
+  "version": "1.0.0",
+  "description": "A pizza ordering application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francisobed/pizza-ordering-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francisobed/pizza-ordering-app/issues"
+  },
+  "homepage": "https://github.com/francisobed/pizza-ordering-app#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
